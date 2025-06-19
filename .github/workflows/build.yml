@@ -40,7 +40,7 @@ jobs:
           tar -cvf otel_ngx_module_${{ matrix.nginx_version }}_${{ matrix.platform }}.tgz otel_ngx_module.so
 
       - name: Upload extracted file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: otel_ngx_module_${{ matrix.nginx_version }}_${{ matrix.platform }}.tgz
           path: otel_ngx_module_${{ matrix.nginx_version }}_${{ matrix.platform }}.tgz
