@@ -1,6 +1,7 @@
 name: Build module for every architecture
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
