@@ -1,4 +1,4 @@
-ARG IMAGE=nginx:1.21.6-alpine
+ARG IMAGE=nginx:1.26.3-alpine
 
 FROM ${IMAGE}
 
